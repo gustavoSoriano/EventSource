@@ -5,13 +5,11 @@ Exemplo de como manter um conexão http aberta no servidor e receber atualizaç�
 A interface EventSource é usada para receber eventos enviados pelo servidor (server-sent events). 
 Ele se conecta via HTTP em um servidor e recebe eventos com o formato text/event-stream. 
 A conexão permanece aberta até ser fechada chamando EventSource.close().
-
-https://developer.mozilla.org/pt-BR/docs/Web/API/EventSource
-
 ```
+[Mozilla EventSource](https://developer.mozilla.org/pt-BR/docs/Web/API/EventSource)
+
+
 
 ## Compatibilidade
+[Can I Use](https://caniuse.com/#search=EventSourcee)
 
-```
-https://caniuse.com/#search=EventSourcee
-```
