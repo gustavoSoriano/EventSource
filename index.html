@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EventSource</title>
+    </head>
+
+    <body>
+        <p>Open Console</p>
+        <script>
+            let source = new EventSource('/connect')
+            source.onmessage = e => {
+                console.log( JSON.parse( e.data ) )
+                //source.close()
+            }
+        </script>
+    </body>
+</html>

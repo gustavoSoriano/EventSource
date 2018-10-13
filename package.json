@@ -1,0 +1,11 @@
+{
+  "name": "node-eventsource",
+  "author": "Soriano <email@email.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
