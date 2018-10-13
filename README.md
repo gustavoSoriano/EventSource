@@ -16,6 +16,7 @@ A conexão permanece aberta até ser fechada chamando EventSource.close().
 
 
 ## Como testar?
+- Rode: npm install
 - Rode: node app
 - Abra o browser em: http://localhost:3001
 - Abra o console do browser
