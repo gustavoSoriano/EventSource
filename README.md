@@ -11,5 +11,11 @@ A conexão permanece aberta até ser fechada chamando EventSource.close().
 
 
 ## Compatibilidade
-[Can I Use](https://caniuse.com/#search=EventSourcee)
+[Can I Use](https://caniuse.com/#search=EventSource)
 
+
+
+## Como testar?
+- Rode: node app
+- Abra o browser em: http://localhost:3001
+- Abra o console do browser
